@@ -1,0 +1,3715 @@
+﻿[ +291 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[  +12 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +5 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +137 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +6 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +205 ms] Skipping pub get: version match.
+[  +22 ms] executing: [D:\weru_digital/] D:\flutter\bin\cache\dart-sdk\bin\dart pub --suppress-analytics deps --json
+[+1287 ms] {
+             "root": "weru_digital",
+             "packages": [
+               {
+                 "name": "weru_digital",
+                 "version": "1.0.1+2",
+                 "kind": "root",
+                 "source": "root",
+                 "dependencies": [
+                   "flutter",
+                   "cupertino_icons",
+                   "provider",
+                   "google_fonts",
+                   "just_audio",
+                   "webview_flutter",
+                   "webview_flutter_android",
+                   "http",
+                   "xml",
+                   "url_launcher",
+                   "cached_network_image",
+                   "intl",
+                   "share_plus",
+                   "package_info_plus",
+                   "flutter_test",
+                   "flutter_lints"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "cupertino_icons",
+                   "provider",
+                   "google_fonts",
+                   "just_audio",
+                   "webview_flutter",
+                   "webview_flutter_android",
+                   "http",
+                   "xml",
+                   "url_launcher",
+                   "cached_network_image",
+                   "intl",
+                   "share_plus",
+                   "package_info_plus"
+                 ],
+                 "devDependencies": [
+                   "flutter_test",
+                   "flutter_lints"
+                 ]
+               },
+               {
+                 "name": "flutter_lints",
+                 "version": "6.0.0",
+                 "kind": "dev",
+                 "source": "hosted",
+                 "dependencies": [
+                   "lints"
+                 ],
+                 "directDependencies": [
+                   "lints"
+                 ]
+               },
+               {
+                 "name": "lints",
+                 "version": "6.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "flutter_test",
+                 "version": "0.0.0",
+                 "kind": "dev",
+                 "source": "sdk",
+                 "dependencies": [
+                   "flutter",
+                   "test_api",
+                   "matcher",
+                   "path",
+                   "fake_async",
+                   "clock",
+                   "stack_trace",
+                   "vector_math",
+                   "leak_tracker_flutter_testing",
+                   "async",
+                   "boolean_selector",
+                   "characters",
+                   "collection",
+                   "leak_tracker",
+                   "leak_tracker_testing",
+                   "material_color_utilities",
+                   "meta",
+                   "source_span",
+                   "stream_channel",
+                   "string_scanner",
+                   "term_glyph",
+                   "vm_service"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "test_api",
+                   "matcher",
+                   "path",
+                   "fake_async",
+                   "clock",
+                   "stack_trace",
+                   "vector_math",
+                   "leak_tracker_flutter_testing",
+                   "async",
+                   "boolean_selector",
+                   "characters",
+                   "collection",
+                   "leak_tracker",
+                   "leak_tracker_testing",
+                   "material_color_utilities",
+                   "meta",
+                   "source_span",
+                   "stream_channel",
+                   "string_scanner",
+                   "term_glyph",
+                   "vm_service"
+                 ]
+               },
+               {
+                 "name": "vm_service",
+                 "version": "15.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "term_glyph",
+                 "version": "1.2.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "string_scanner",
+                 "version": "1.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "source_span"
+                 ],
+                 "directDependencies": [
+                   "source_span"
+                 ]
+               },
+               {
+                 "name": "source_span",
+                 "version": "1.10.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "path",
+                   "term_glyph"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "path",
+                   "term_glyph"
+                 ]
+               },
+               {
+                 "name": "path",
+                 "version": "1.9.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "collection",
+                 "version": "1.19.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "stream_channel",
+                 "version": "2.1.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "async"
+                 ],
+                 "directDependencies": [
+                   "async"
+                 ]
+               },
+               {
+                 "name": "async",
+                 "version": "2.13.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "meta",
+                 "version": "1.16.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "material_color_utilities",
+                 "version": "0.11.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection"
+                 ],
+                 "directDependencies": [
+                   "collection"
+                 ]
+               },
+               {
+                 "name": "leak_tracker_testing",
+                 "version": "3.0.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "leak_tracker",
+                   "matcher",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "leak_tracker",
+                   "matcher",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "matcher",
+                 "version": "0.12.17",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "async",
+                   "meta",
+                   "stack_trace",
+                   "term_glyph",
+                   "test_api"
+                 ],
+                 "directDependencies": [
+                   "async",
+                   "meta",
+                   "stack_trace",
+                   "term_glyph",
+                   "test_api"
+                 ]
+               },
+               {
+                 "name": "test_api",
+                 "version": "0.7.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "async",
+                   "boolean_selector",
+                   "collection",
+                   "meta",
+                   "source_span",
+                   "stack_trace",
+                   "stream_channel",
+                   "string_scanner",
+                   "term_glyph"
+                 ],
+                 "directDependencies": [
+                   "async",
+                   "boolean_selector",
+                   "collection",
+                   "meta",
+                   "source_span",
+                   "stack_trace",
+                   "stream_channel",
+                   "string_scanner",
+                   "term_glyph"
+                 ]
+               },
+               {
+                 "name": "stack_trace",
+                 "version": "1.12.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "path"
+                 ]
+               },
+               {
+                 "name": "boolean_selector",
+                 "version": "2.1.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "source_span",
+                   "string_scanner"
+                 ],
+                 "directDependencies": [
+                   "source_span",
+                   "string_scanner"
+                 ]
+               },
+               {
+                 "name": "leak_tracker",
+                 "version": "10.0.9",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "clock",
+                   "collection",
+                   "meta",
+                   "path",
+                   "vm_service"
+                 ],
+                 "directDependencies": [
+                   "clock",
+                   "collection",
+                   "meta",
+                   "path",
+                   "vm_service"
+                 ]
+               },
+               {
+                 "name": "clock",
+                 "version": "1.1.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "characters",
+                 "version": "1.4.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "leak_tracker_flutter_testing",
+                 "version": "3.0.9",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "leak_tracker",
+                   "leak_tracker_testing",
+                   "matcher",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "leak_tracker",
+                   "leak_tracker_testing",
+                   "matcher",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "flutter",
+                 "version": "0.0.0",
+                 "kind": "direct",
+                 "source": "sdk",
+                 "dependencies": [
+                   "characters",
+                   "collection",
+                   "material_color_utilities",
+                   "meta",
+                   "vector_math",
+                   "sky_engine"
+                 ],
+                 "directDependencies": [
+                   "characters",
+                   "collection",
+                   "material_color_utilities",
+                   "meta",
+                   "vector_math",
+                   "sky_engine"
+                 ]
+               },
+               {
+                 "name": "sky_engine",
+                 "version": "0.0.0",
+                 "kind": "transitive",
+                 "source": "sdk",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "vector_math",
+                 "version": "2.1.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "fake_async",
+                 "version": "1.3.3",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "clock",
+                   "collection"
+                 ],
+                 "directDependencies": [
+                   "clock",
+                   "collection"
+                 ]
+               },
+               {
+                 "name": "package_info_plus",
+                 "version": "8.3.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "ffi",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "http",
+                   "meta",
+                   "path",
+                   "package_info_plus_platform_interface",
+                   "web",
+                   "win32",
+                   "clock"
+                 ],
+                 "directDependencies": [
+                   "ffi",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "http",
+                   "meta",
+                   "path",
+                   "package_info_plus_platform_interface",
+                   "web",
+                   "win32",
+                   "clock"
+                 ]
+               },
+               {
+                 "name": "win32",
+                 "version": "5.14.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "ffi"
+                 ],
+                 "directDependencies": [
+                   "ffi"
+                 ]
+               },
+               {
+                 "name": "ffi",
+                 "version": "2.1.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "web",
+                 "version": "1.1.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "package_info_plus_platform_interface",
+                 "version": "3.2.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "meta",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "meta",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "plugin_platform_interface",
+                 "version": "2.1.8",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "http",
+                 "version": "1.4.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "async",
+                   "http_parser",
+                   "meta",
+                   "web"
+                 ],
+                 "directDependencies": [
+                   "async",
+                   "http_parser",
+                   "meta",
+                   "web"
+                 ]
+               },
+               {
+                 "name": "http_parser",
+                 "version": "4.1.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "source_span",
+                   "string_scanner",
+                   "typed_data"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "source_span",
+                   "string_scanner",
+                   "typed_data"
+                 ]
+               },
+               {
+                 "name": "typed_data",
+                 "version": "1.4.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection"
+                 ],
+                 "directDependencies": [
+                   "collection"
+                 ]
+               },
+               {
+                 "name": "flutter_web_plugins",
+                 "version": "0.0.0",
+                 "kind": "transitive",
+                 "source": "sdk",
+                 "dependencies": [
+                   "flutter",
+                   "characters",
+                   "collection",
+                   "material_color_utilities",
+                   "meta",
+                   "vector_math"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "characters",
+                   "collection",
+                   "material_color_utilities",
+                   "meta",
+                   "vector_math"
+                 ]
+               },
+               {
+                 "name": "share_plus",
+                 "version": "11.0.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "cross_file",
+                   "meta",
+                   "mime",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "share_plus_platform_interface",
+                   "file",
+                   "url_launcher_web",
+                   "url_launcher_windows",
+                   "url_launcher_linux",
+                   "url_launcher_platform_interface",
+                   "ffi",
+                   "web",
+                   "win32"
+                 ],
+                 "directDependencies": [
+                   "cross_file",
+                   "meta",
+                   "mime",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "share_plus_platform_interface",
+                   "file",
+                   "url_launcher_web",
+                   "url_launcher_windows",
+                   "url_launcher_linux",
+                   "url_launcher_platform_interface",
+                   "ffi",
+                   "web",
+                   "win32"
+                 ]
+               },
+               {
+                 "name": "url_launcher_platform_interface",
+                 "version": "2.3.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_linux",
+                 "version": "3.2.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_windows",
+                 "version": "3.1.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_web",
+                 "version": "2.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "flutter_web_plugins",
+                   "url_launcher_platform_interface",
+                   "web"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "flutter_web_plugins",
+                   "url_launcher_platform_interface",
+                   "web"
+                 ]
+               },
+               {
+                 "name": "file",
+                 "version": "7.0.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "meta",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "share_plus_platform_interface",
+                 "version": "6.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "cross_file",
+                   "flutter",
+                   "meta",
+                   "mime",
+                   "plugin_platform_interface",
+                   "path_provider",
+                   "uuid"
+                 ],
+                 "directDependencies": [
+                   "cross_file",
+                   "flutter",
+                   "meta",
+                   "mime",
+                   "plugin_platform_interface",
+                   "path_provider",
+                   "uuid"
+                 ]
+               },
+               {
+                 "name": "uuid",
+                 "version": "4.5.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "crypto",
+                   "sprintf",
+                   "meta",
+                   "fixnum"
+                 ],
+                 "directDependencies": [
+                   "crypto",
+                   "sprintf",
+                   "meta",
+                   "fixnum"
+                 ]
+               },
+               {
+                 "name": "fixnum",
+                 "version": "1.1.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "sprintf",
+                 "version": "7.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "crypto",
+                 "version": "3.0.6",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "typed_data"
+                 ],
+                 "directDependencies": [
+                   "typed_data"
+                 ]
+               },
+               {
+                 "name": "path_provider",
+                 "version": "2.1.5",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "path_provider_android",
+                   "path_provider_foundation",
+                   "path_provider_linux",
+                   "path_provider_platform_interface",
+                   "path_provider_windows"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "path_provider_android",
+                   "path_provider_foundation",
+                   "path_provider_linux",
+                   "path_provider_platform_interface",
+                   "path_provider_windows"
+                 ]
+               },
+               {
+                 "name": "path_provider_windows",
+                 "version": "2.3.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "ffi",
+                   "flutter",
+                   "path",
+                   "path_provider_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "ffi",
+                   "flutter",
+                   "path",
+                   "path_provider_platform_interface"
+                 ]
+               },
+               {
+                 "name": "path_provider_platform_interface",
+                 "version": "2.1.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "platform",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "platform",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "platform",
+                 "version": "3.1.6",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "path_provider_linux",
+                 "version": "2.2.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "ffi",
+                   "flutter",
+                   "path",
+                   "path_provider_platform_interface",
+                   "xdg_directories"
+                 ],
+                 "directDependencies": [
+                   "ffi",
+                   "flutter",
+                   "path",
+                   "path_provider_platform_interface",
+                   "xdg_directories"
+                 ]
+               },
+               {
+                 "name": "xdg_directories",
+                 "version": "1.1.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "meta",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "path_provider_foundation",
+                 "version": "2.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "path_provider_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "path_provider_platform_interface"
+                 ]
+               },
+               {
+                 "name": "path_provider_android",
+                 "version": "2.2.17",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "path_provider_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "path_provider_platform_interface"
+                 ]
+               },
+               {
+                 "name": "mime",
+                 "version": "2.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "cross_file",
+                 "version": "0.3.4+2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta",
+                   "web"
+                 ],
+                 "directDependencies": [
+                   "meta",
+                   "web"
+                 ]
+               },
+               {
+                 "name": "intl",
+                 "version": "0.20.2",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "clock",
+                   "meta",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "clock",
+                   "meta",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "cached_network_image",
+                 "version": "3.4.1",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "cached_network_image_platform_interface",
+                   "cached_network_image_web",
+                   "flutter",
+                   "flutter_cache_manager",
+                   "octo_image"
+                 ],
+                 "directDependencies": [
+                   "cached_network_image_platform_interface",
+                   "cached_network_image_web",
+                   "flutter",
+                   "flutter_cache_manager",
+                   "octo_image"
+                 ]
+               },
+               {
+                 "name": "octo_image",
+                 "version": "2.1.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter"
+                 ],
+                 "directDependencies": [
+                   "flutter"
+                 ]
+               },
+               {
+                 "name": "flutter_cache_manager",
+                 "version": "3.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "clock",
+                   "collection",
+                   "file",
+                   "flutter",
+                   "http",
+                   "path",
+                   "path_provider",
+                   "rxdart",
+                   "sqflite",
+                   "uuid"
+                 ],
+                 "directDependencies": [
+                   "clock",
+                   "collection",
+                   "file",
+                   "flutter",
+                   "http",
+                   "path",
+                   "path_provider",
+                   "rxdart",
+                   "sqflite",
+                   "uuid"
+                 ]
+               },
+               {
+                 "name": "sqflite",
+                 "version": "2.4.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "sqflite_android",
+                   "sqflite_darwin",
+                   "sqflite_platform_interface",
+                   "sqflite_common",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "sqflite_android",
+                   "sqflite_darwin",
+                   "sqflite_platform_interface",
+                   "sqflite_common",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "sqflite_common",
+                 "version": "2.5.5",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "synchronized",
+                   "path",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "synchronized",
+                   "path",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "synchronized",
+                 "version": "3.3.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "sqflite_platform_interface",
+                 "version": "2.4.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "platform",
+                   "sqflite_common",
+                   "plugin_platform_interface",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "platform",
+                   "sqflite_common",
+                   "plugin_platform_interface",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "sqflite_darwin",
+                 "version": "2.4.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "sqflite_platform_interface",
+                   "meta",
+                   "sqflite_common",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "sqflite_platform_interface",
+                   "meta",
+                   "sqflite_common",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "sqflite_android",
+                 "version": "2.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "sqflite_common",
+                   "path",
+                   "sqflite_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "sqflite_common",
+                   "path",
+                   "sqflite_platform_interface"
+                 ]
+               },
+               {
+                 "name": "rxdart",
+                 "version": "0.28.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "cached_network_image_web",
+                 "version": "1.3.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "cached_network_image_platform_interface",
+                   "flutter",
+                   "flutter_cache_manager",
+                   "web"
+                 ],
+                 "directDependencies": [
+                   "cached_network_image_platform_interface",
+                   "flutter",
+                   "flutter_cache_manager",
+                   "web"
+                 ]
+               },
+               {
+                 "name": "cached_network_image_platform_interface",
+                 "version": "4.1.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "flutter_cache_manager"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "flutter_cache_manager"
+                 ]
+               },
+               {
+                 "name": "url_launcher",
+                 "version": "6.3.1",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_android",
+                   "url_launcher_ios",
+                   "url_launcher_linux",
+                   "url_launcher_macos",
+                   "url_launcher_platform_interface",
+                   "url_launcher_web",
+                   "url_launcher_windows"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_android",
+                   "url_launcher_ios",
+                   "url_launcher_linux",
+                   "url_launcher_macos",
+                   "url_launcher_platform_interface",
+                   "url_launcher_web",
+                   "url_launcher_windows"
+                 ]
+               },
+               {
+                 "name": "url_launcher_macos",
+                 "version": "3.2.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_ios",
+                 "version": "6.3.3",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_android",
+                 "version": "6.3.16",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "xml",
+                 "version": "6.5.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "meta",
+                   "petitparser"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "meta",
+                   "petitparser"
+                 ]
+               },
+               {
+                 "name": "petitparser",
+                 "version": "6.1.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta",
+                   "collection"
+                 ],
+                 "directDependencies": [
+                   "meta",
+                   "collection"
+                 ]
+               },
+               {
+                 "name": "webview_flutter_android",
+                 "version": "4.7.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "meta",
+                   "webview_flutter_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "meta",
+                   "webview_flutter_platform_interface"
+                 ]
+               },
+               {
+                 "name": "webview_flutter_platform_interface",
+                 "version": "2.13.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "meta",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "meta",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "webview_flutter",
+                 "version": "4.13.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "webview_flutter_android",
+                   "webview_flutter_platform_interface",
+                   "webview_flutter_wkwebview"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "webview_flutter_android",
+                   "webview_flutter_platform_interface",
+                   "webview_flutter_wkwebview"
+                 ]
+               },
+               {
+                 "name": "webview_flutter_wkwebview",
+                 "version": "3.22.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "meta",
+                   "path",
+                   "webview_flutter_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "meta",
+                   "path",
+                   "webview_flutter_platform_interface"
+                 ]
+               },
+               {
+                 "name": "just_audio",
+                 "version": "0.10.4",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "just_audio_platform_interface",
+                   "just_audio_web",
+                   "audio_session",
+                   "rxdart",
+                   "path",
+                   "path_provider",
+                   "async",
+                   "uuid",
+                   "crypto",
+                   "meta",
+                   "flutter",
+                   "synchronized"
+                 ],
+                 "directDependencies": [
+                   "just_audio_platform_interface",
+                   "just_audio_web",
+                   "audio_session",
+                   "rxdart",
+                   "path",
+                   "path_provider",
+                   "async",
+                   "uuid",
+                   "crypto",
+                   "meta",
+                   "flutter",
+                   "synchronized"
+                 ]
+               },
+               {
+                 "name": "audio_session",
+                 "version": "0.2.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "flutter_web_plugins",
+                   "rxdart",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "flutter_web_plugins",
+                   "rxdart",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "just_audio_web",
+                 "version": "0.4.16",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "just_audio_platform_interface",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "web",
+                   "synchronized"
+                 ],
+                 "directDependencies": [
+                   "just_audio_platform_interface",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "web",
+                   "synchronized"
+                 ]
+               },
+               {
+                 "name": "just_audio_platform_interface",
+                 "version": "4.5.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "google_fonts",
+                 "version": "6.2.1",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "http",
+                   "path_provider",
+                   "crypto"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "http",
+                   "path_provider",
+                   "crypto"
+                 ]
+               },
+               {
+                 "name": "provider",
+                 "version": "6.1.5",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "flutter",
+                   "nested"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "flutter",
+                   "nested"
+                 ]
+               },
+               {
+                 "name": "nested",
+                 "version": "1.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter"
+                 ],
+                 "directDependencies": [
+                   "flutter"
+                 ]
+               },
+               {
+                 "name": "cupertino_icons",
+                 "version": "1.0.8",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               }
+             ],
+             "sdks": [
+               {
+                 "name": "Dart",
+                 "version": "3.8.1"
+               },
+               {
+                 "name": "Flutter",
+                 "version": "3.32.4"
+               }
+             ],
+             "executables": [
+               "xml:benchmark"
+             ]
+           }
+[ +201 ms] Found plugin audio_session at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\audio_session-0.2.2\
+[  +98 ms] Found plugin just_audio at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio-0.10.4\
+[   +8 ms] Found plugin just_audio_web at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio_web-0.4.16\
+[  +38 ms] Found plugin package_info_plus at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-8.3.0\
+[  +14 ms] Found plugin path_provider at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +7 ms] Found plugin path_provider_android at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.17\
+[   +4 ms] Found plugin path_provider_foundation at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.4.1\
+[   +3 ms] Found plugin path_provider_linux at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +6 ms] Found plugin path_provider_windows at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +19 ms] Found plugin share_plus at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-11.0.0\
+[  +14 ms] Found plugin sqflite at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.4.2\
+[   +4 ms] Found plugin sqflite_android at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.1\
+[  +15 ms] Found plugin sqflite_darwin at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_darwin-2.4.2\
+[  +30 ms] Found plugin url_launcher at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher-6.3.1\
+[   +3 ms] Found plugin url_launcher_android at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.16\
+[   +3 ms] Found plugin url_launcher_ios at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_ios-6.3.3\
+[   +4 ms] Found plugin url_launcher_linux at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.1\
+[   +4 ms] Found plugin url_launcher_macos at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_macos-3.2.2\
+[  +12 ms] Found plugin url_launcher_web at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.1\
+[   +4 ms] Found plugin url_launcher_windows at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.4\
+[  +15 ms] Found plugin webview_flutter at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter-4.13.0\
+[   +3 ms] Found plugin webview_flutter_android at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_android-4.7.0\
+[   +4 ms] Found plugin webview_flutter_wkwebview at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_wkwebview-3.22.0\
+[  +68 ms] executing: [D:\weru_digital/] D:\flutter\bin\cache\dart-sdk\bin\dart pub --suppress-analytics deps --json
+[ +785 ms] {
+             "root": "weru_digital",
+             "packages": [
+               {
+                 "name": "weru_digital",
+                 "version": "1.0.1+2",
+                 "kind": "root",
+                 "source": "root",
+                 "dependencies": [
+                   "flutter",
+                   "cupertino_icons",
+                   "provider",
+                   "google_fonts",
+                   "just_audio",
+                   "webview_flutter",
+                   "webview_flutter_android",
+                   "http",
+                   "xml",
+                   "url_launcher",
+                   "cached_network_image",
+                   "intl",
+                   "share_plus",
+                   "package_info_plus",
+                   "flutter_test",
+                   "flutter_lints"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "cupertino_icons",
+                   "provider",
+                   "google_fonts",
+                   "just_audio",
+                   "webview_flutter",
+                   "webview_flutter_android",
+                   "http",
+                   "xml",
+                   "url_launcher",
+                   "cached_network_image",
+                   "intl",
+                   "share_plus",
+                   "package_info_plus"
+                 ],
+                 "devDependencies": [
+                   "flutter_test",
+                   "flutter_lints"
+                 ]
+               },
+               {
+                 "name": "flutter_lints",
+                 "version": "6.0.0",
+                 "kind": "dev",
+                 "source": "hosted",
+                 "dependencies": [
+                   "lints"
+                 ],
+                 "directDependencies": [
+                   "lints"
+                 ]
+               },
+               {
+                 "name": "lints",
+                 "version": "6.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "flutter_test",
+                 "version": "0.0.0",
+                 "kind": "dev",
+                 "source": "sdk",
+                 "dependencies": [
+                   "flutter",
+                   "test_api",
+                   "matcher",
+                   "path",
+                   "fake_async",
+                   "clock",
+                   "stack_trace",
+                   "vector_math",
+                   "leak_tracker_flutter_testing",
+                   "async",
+                   "boolean_selector",
+                   "characters",
+                   "collection",
+                   "leak_tracker",
+                   "leak_tracker_testing",
+                   "material_color_utilities",
+                   "meta",
+                   "source_span",
+                   "stream_channel",
+                   "string_scanner",
+                   "term_glyph",
+                   "vm_service"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "test_api",
+                   "matcher",
+                   "path",
+                   "fake_async",
+                   "clock",
+                   "stack_trace",
+                   "vector_math",
+                   "leak_tracker_flutter_testing",
+                   "async",
+                   "boolean_selector",
+                   "characters",
+                   "collection",
+                   "leak_tracker",
+                   "leak_tracker_testing",
+                   "material_color_utilities",
+                   "meta",
+                   "source_span",
+                   "stream_channel",
+                   "string_scanner",
+                   "term_glyph",
+                   "vm_service"
+                 ]
+               },
+               {
+                 "name": "vm_service",
+                 "version": "15.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "term_glyph",
+                 "version": "1.2.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "string_scanner",
+                 "version": "1.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "source_span"
+                 ],
+                 "directDependencies": [
+                   "source_span"
+                 ]
+               },
+               {
+                 "name": "source_span",
+                 "version": "1.10.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "path",
+                   "term_glyph"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "path",
+                   "term_glyph"
+                 ]
+               },
+               {
+                 "name": "path",
+                 "version": "1.9.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "collection",
+                 "version": "1.19.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "stream_channel",
+                 "version": "2.1.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "async"
+                 ],
+                 "directDependencies": [
+                   "async"
+                 ]
+               },
+               {
+                 "name": "async",
+                 "version": "2.13.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "meta",
+                 "version": "1.16.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "material_color_utilities",
+                 "version": "0.11.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection"
+                 ],
+                 "directDependencies": [
+                   "collection"
+                 ]
+               },
+               {
+                 "name": "leak_tracker_testing",
+                 "version": "3.0.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "leak_tracker",
+                   "matcher",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "leak_tracker",
+                   "matcher",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "matcher",
+                 "version": "0.12.17",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "async",
+                   "meta",
+                   "stack_trace",
+                   "term_glyph",
+                   "test_api"
+                 ],
+                 "directDependencies": [
+                   "async",
+                   "meta",
+                   "stack_trace",
+                   "term_glyph",
+                   "test_api"
+                 ]
+               },
+               {
+                 "name": "test_api",
+                 "version": "0.7.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "async",
+                   "boolean_selector",
+                   "collection",
+                   "meta",
+                   "source_span",
+                   "stack_trace",
+                   "stream_channel",
+                   "string_scanner",
+                   "term_glyph"
+                 ],
+                 "directDependencies": [
+                   "async",
+                   "boolean_selector",
+                   "collection",
+                   "meta",
+                   "source_span",
+                   "stack_trace",
+                   "stream_channel",
+                   "string_scanner",
+                   "term_glyph"
+                 ]
+               },
+               {
+                 "name": "stack_trace",
+                 "version": "1.12.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "path"
+                 ]
+               },
+               {
+                 "name": "boolean_selector",
+                 "version": "2.1.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "source_span",
+                   "string_scanner"
+                 ],
+                 "directDependencies": [
+                   "source_span",
+                   "string_scanner"
+                 ]
+               },
+               {
+                 "name": "leak_tracker",
+                 "version": "10.0.9",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "clock",
+                   "collection",
+                   "meta",
+                   "path",
+                   "vm_service"
+                 ],
+                 "directDependencies": [
+                   "clock",
+                   "collection",
+                   "meta",
+                   "path",
+                   "vm_service"
+                 ]
+               },
+               {
+                 "name": "clock",
+                 "version": "1.1.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "characters",
+                 "version": "1.4.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "leak_tracker_flutter_testing",
+                 "version": "3.0.9",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "leak_tracker",
+                   "leak_tracker_testing",
+                   "matcher",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "leak_tracker",
+                   "leak_tracker_testing",
+                   "matcher",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "flutter",
+                 "version": "0.0.0",
+                 "kind": "direct",
+                 "source": "sdk",
+                 "dependencies": [
+                   "characters",
+                   "collection",
+                   "material_color_utilities",
+                   "meta",
+                   "vector_math",
+                   "sky_engine"
+                 ],
+                 "directDependencies": [
+                   "characters",
+                   "collection",
+                   "material_color_utilities",
+                   "meta",
+                   "vector_math",
+                   "sky_engine"
+                 ]
+               },
+               {
+                 "name": "sky_engine",
+                 "version": "0.0.0",
+                 "kind": "transitive",
+                 "source": "sdk",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "vector_math",
+                 "version": "2.1.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "fake_async",
+                 "version": "1.3.3",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "clock",
+                   "collection"
+                 ],
+                 "directDependencies": [
+                   "clock",
+                   "collection"
+                 ]
+               },
+               {
+                 "name": "package_info_plus",
+                 "version": "8.3.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "ffi",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "http",
+                   "meta",
+                   "path",
+                   "package_info_plus_platform_interface",
+                   "web",
+                   "win32",
+                   "clock"
+                 ],
+                 "directDependencies": [
+                   "ffi",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "http",
+                   "meta",
+                   "path",
+                   "package_info_plus_platform_interface",
+                   "web",
+                   "win32",
+                   "clock"
+                 ]
+               },
+               {
+                 "name": "win32",
+                 "version": "5.14.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "ffi"
+                 ],
+                 "directDependencies": [
+                   "ffi"
+                 ]
+               },
+               {
+                 "name": "ffi",
+                 "version": "2.1.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "web",
+                 "version": "1.1.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "package_info_plus_platform_interface",
+                 "version": "3.2.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "meta",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "meta",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "plugin_platform_interface",
+                 "version": "2.1.8",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "http",
+                 "version": "1.4.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "async",
+                   "http_parser",
+                   "meta",
+                   "web"
+                 ],
+                 "directDependencies": [
+                   "async",
+                   "http_parser",
+                   "meta",
+                   "web"
+                 ]
+               },
+               {
+                 "name": "http_parser",
+                 "version": "4.1.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "source_span",
+                   "string_scanner",
+                   "typed_data"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "source_span",
+                   "string_scanner",
+                   "typed_data"
+                 ]
+               },
+               {
+                 "name": "typed_data",
+                 "version": "1.4.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection"
+                 ],
+                 "directDependencies": [
+                   "collection"
+                 ]
+               },
+               {
+                 "name": "flutter_web_plugins",
+                 "version": "0.0.0",
+                 "kind": "transitive",
+                 "source": "sdk",
+                 "dependencies": [
+                   "flutter",
+                   "characters",
+                   "collection",
+                   "material_color_utilities",
+                   "meta",
+                   "vector_math"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "characters",
+                   "collection",
+                   "material_color_utilities",
+                   "meta",
+                   "vector_math"
+                 ]
+               },
+               {
+                 "name": "share_plus",
+                 "version": "11.0.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "cross_file",
+                   "meta",
+                   "mime",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "share_plus_platform_interface",
+                   "file",
+                   "url_launcher_web",
+                   "url_launcher_windows",
+                   "url_launcher_linux",
+                   "url_launcher_platform_interface",
+                   "ffi",
+                   "web",
+                   "win32"
+                 ],
+                 "directDependencies": [
+                   "cross_file",
+                   "meta",
+                   "mime",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "share_plus_platform_interface",
+                   "file",
+                   "url_launcher_web",
+                   "url_launcher_windows",
+                   "url_launcher_linux",
+                   "url_launcher_platform_interface",
+                   "ffi",
+                   "web",
+                   "win32"
+                 ]
+               },
+               {
+                 "name": "url_launcher_platform_interface",
+                 "version": "2.3.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_linux",
+                 "version": "3.2.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_windows",
+                 "version": "3.1.4",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_web",
+                 "version": "2.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "flutter_web_plugins",
+                   "url_launcher_platform_interface",
+                   "web"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "flutter_web_plugins",
+                   "url_launcher_platform_interface",
+                   "web"
+                 ]
+               },
+               {
+                 "name": "file",
+                 "version": "7.0.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "meta",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "share_plus_platform_interface",
+                 "version": "6.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "cross_file",
+                   "flutter",
+                   "meta",
+                   "mime",
+                   "plugin_platform_interface",
+                   "path_provider",
+                   "uuid"
+                 ],
+                 "directDependencies": [
+                   "cross_file",
+                   "flutter",
+                   "meta",
+                   "mime",
+                   "plugin_platform_interface",
+                   "path_provider",
+                   "uuid"
+                 ]
+               },
+               {
+                 "name": "uuid",
+                 "version": "4.5.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "crypto",
+                   "sprintf",
+                   "meta",
+                   "fixnum"
+                 ],
+                 "directDependencies": [
+                   "crypto",
+                   "sprintf",
+                   "meta",
+                   "fixnum"
+                 ]
+               },
+               {
+                 "name": "fixnum",
+                 "version": "1.1.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "sprintf",
+                 "version": "7.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "crypto",
+                 "version": "3.0.6",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "typed_data"
+                 ],
+                 "directDependencies": [
+                   "typed_data"
+                 ]
+               },
+               {
+                 "name": "path_provider",
+                 "version": "2.1.5",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "path_provider_android",
+                   "path_provider_foundation",
+                   "path_provider_linux",
+                   "path_provider_platform_interface",
+                   "path_provider_windows"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "path_provider_android",
+                   "path_provider_foundation",
+                   "path_provider_linux",
+                   "path_provider_platform_interface",
+                   "path_provider_windows"
+                 ]
+               },
+               {
+                 "name": "path_provider_windows",
+                 "version": "2.3.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "ffi",
+                   "flutter",
+                   "path",
+                   "path_provider_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "ffi",
+                   "flutter",
+                   "path",
+                   "path_provider_platform_interface"
+                 ]
+               },
+               {
+                 "name": "path_provider_platform_interface",
+                 "version": "2.1.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "platform",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "platform",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "platform",
+                 "version": "3.1.6",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "path_provider_linux",
+                 "version": "2.2.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "ffi",
+                   "flutter",
+                   "path",
+                   "path_provider_platform_interface",
+                   "xdg_directories"
+                 ],
+                 "directDependencies": [
+                   "ffi",
+                   "flutter",
+                   "path",
+                   "path_provider_platform_interface",
+                   "xdg_directories"
+                 ]
+               },
+               {
+                 "name": "xdg_directories",
+                 "version": "1.1.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "meta",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "path_provider_foundation",
+                 "version": "2.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "path_provider_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "path_provider_platform_interface"
+                 ]
+               },
+               {
+                 "name": "path_provider_android",
+                 "version": "2.2.17",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "path_provider_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "path_provider_platform_interface"
+                 ]
+               },
+               {
+                 "name": "mime",
+                 "version": "2.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "cross_file",
+                 "version": "0.3.4+2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta",
+                   "web"
+                 ],
+                 "directDependencies": [
+                   "meta",
+                   "web"
+                 ]
+               },
+               {
+                 "name": "intl",
+                 "version": "0.20.2",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "clock",
+                   "meta",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "clock",
+                   "meta",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "cached_network_image",
+                 "version": "3.4.1",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "cached_network_image_platform_interface",
+                   "cached_network_image_web",
+                   "flutter",
+                   "flutter_cache_manager",
+                   "octo_image"
+                 ],
+                 "directDependencies": [
+                   "cached_network_image_platform_interface",
+                   "cached_network_image_web",
+                   "flutter",
+                   "flutter_cache_manager",
+                   "octo_image"
+                 ]
+               },
+               {
+                 "name": "octo_image",
+                 "version": "2.1.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter"
+                 ],
+                 "directDependencies": [
+                   "flutter"
+                 ]
+               },
+               {
+                 "name": "flutter_cache_manager",
+                 "version": "3.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "clock",
+                   "collection",
+                   "file",
+                   "flutter",
+                   "http",
+                   "path",
+                   "path_provider",
+                   "rxdart",
+                   "sqflite",
+                   "uuid"
+                 ],
+                 "directDependencies": [
+                   "clock",
+                   "collection",
+                   "file",
+                   "flutter",
+                   "http",
+                   "path",
+                   "path_provider",
+                   "rxdart",
+                   "sqflite",
+                   "uuid"
+                 ]
+               },
+               {
+                 "name": "sqflite",
+                 "version": "2.4.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "sqflite_android",
+                   "sqflite_darwin",
+                   "sqflite_platform_interface",
+                   "sqflite_common",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "sqflite_android",
+                   "sqflite_darwin",
+                   "sqflite_platform_interface",
+                   "sqflite_common",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "sqflite_common",
+                 "version": "2.5.5",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "synchronized",
+                   "path",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "synchronized",
+                   "path",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "synchronized",
+                 "version": "3.3.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "sqflite_platform_interface",
+                 "version": "2.4.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "platform",
+                   "sqflite_common",
+                   "plugin_platform_interface",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "platform",
+                   "sqflite_common",
+                   "plugin_platform_interface",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "sqflite_darwin",
+                 "version": "2.4.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "sqflite_platform_interface",
+                   "meta",
+                   "sqflite_common",
+                   "path"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "sqflite_platform_interface",
+                   "meta",
+                   "sqflite_common",
+                   "path"
+                 ]
+               },
+               {
+                 "name": "sqflite_android",
+                 "version": "2.4.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "sqflite_common",
+                   "path",
+                   "sqflite_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "sqflite_common",
+                   "path",
+                   "sqflite_platform_interface"
+                 ]
+               },
+               {
+                 "name": "rxdart",
+                 "version": "0.28.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               },
+               {
+                 "name": "cached_network_image_web",
+                 "version": "1.3.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "cached_network_image_platform_interface",
+                   "flutter",
+                   "flutter_cache_manager",
+                   "web"
+                 ],
+                 "directDependencies": [
+                   "cached_network_image_platform_interface",
+                   "flutter",
+                   "flutter_cache_manager",
+                   "web"
+                 ]
+               },
+               {
+                 "name": "cached_network_image_platform_interface",
+                 "version": "4.1.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "flutter_cache_manager"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "flutter_cache_manager"
+                 ]
+               },
+               {
+                 "name": "url_launcher",
+                 "version": "6.3.1",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_android",
+                   "url_launcher_ios",
+                   "url_launcher_linux",
+                   "url_launcher_macos",
+                   "url_launcher_platform_interface",
+                   "url_launcher_web",
+                   "url_launcher_windows"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_android",
+                   "url_launcher_ios",
+                   "url_launcher_linux",
+                   "url_launcher_macos",
+                   "url_launcher_platform_interface",
+                   "url_launcher_web",
+                   "url_launcher_windows"
+                 ]
+               },
+               {
+                 "name": "url_launcher_macos",
+                 "version": "3.2.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_ios",
+                 "version": "6.3.3",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "url_launcher_android",
+                 "version": "6.3.16",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "url_launcher_platform_interface"
+                 ]
+               },
+               {
+                 "name": "xml",
+                 "version": "6.5.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "meta",
+                   "petitparser"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "meta",
+                   "petitparser"
+                 ]
+               },
+               {
+                 "name": "petitparser",
+                 "version": "6.1.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "meta",
+                   "collection"
+                 ],
+                 "directDependencies": [
+                   "meta",
+                   "collection"
+                 ]
+               },
+               {
+                 "name": "webview_flutter_android",
+                 "version": "4.7.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "meta",
+                   "webview_flutter_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "meta",
+                   "webview_flutter_platform_interface"
+                 ]
+               },
+               {
+                 "name": "webview_flutter_platform_interface",
+                 "version": "2.13.1",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "meta",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "meta",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "webview_flutter",
+                 "version": "4.13.0",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "webview_flutter_android",
+                   "webview_flutter_platform_interface",
+                   "webview_flutter_wkwebview"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "webview_flutter_android",
+                   "webview_flutter_platform_interface",
+                   "webview_flutter_wkwebview"
+                 ]
+               },
+               {
+                 "name": "webview_flutter_wkwebview",
+                 "version": "3.22.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "meta",
+                   "path",
+                   "webview_flutter_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "meta",
+                   "path",
+                   "webview_flutter_platform_interface"
+                 ]
+               },
+               {
+                 "name": "just_audio",
+                 "version": "0.10.4",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "just_audio_platform_interface",
+                   "just_audio_web",
+                   "audio_session",
+                   "rxdart",
+                   "path",
+                   "path_provider",
+                   "async",
+                   "uuid",
+                   "crypto",
+                   "meta",
+                   "flutter",
+                   "synchronized"
+                 ],
+                 "directDependencies": [
+                   "just_audio_platform_interface",
+                   "just_audio_web",
+                   "audio_session",
+                   "rxdart",
+                   "path",
+                   "path_provider",
+                   "async",
+                   "uuid",
+                   "crypto",
+                   "meta",
+                   "flutter",
+                   "synchronized"
+                 ]
+               },
+               {
+                 "name": "audio_session",
+                 "version": "0.2.2",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "flutter_web_plugins",
+                   "rxdart",
+                   "meta"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "flutter_web_plugins",
+                   "rxdart",
+                   "meta"
+                 ]
+               },
+               {
+                 "name": "just_audio_web",
+                 "version": "0.4.16",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "just_audio_platform_interface",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "web",
+                   "synchronized"
+                 ],
+                 "directDependencies": [
+                   "just_audio_platform_interface",
+                   "flutter",
+                   "flutter_web_plugins",
+                   "web",
+                   "synchronized"
+                 ]
+               },
+               {
+                 "name": "just_audio_platform_interface",
+                 "version": "4.5.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "plugin_platform_interface"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "plugin_platform_interface"
+                 ]
+               },
+               {
+                 "name": "google_fonts",
+                 "version": "6.2.1",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter",
+                   "http",
+                   "path_provider",
+                   "crypto"
+                 ],
+                 "directDependencies": [
+                   "flutter",
+                   "http",
+                   "path_provider",
+                   "crypto"
+                 ]
+               },
+               {
+                 "name": "provider",
+                 "version": "6.1.5",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [
+                   "collection",
+                   "flutter",
+                   "nested"
+                 ],
+                 "directDependencies": [
+                   "collection",
+                   "flutter",
+                   "nested"
+                 ]
+               },
+               {
+                 "name": "nested",
+                 "version": "1.0.0",
+                 "kind": "transitive",
+                 "source": "hosted",
+                 "dependencies": [
+                   "flutter"
+                 ],
+                 "directDependencies": [
+                   "flutter"
+                 ]
+               },
+               {
+                 "name": "cupertino_icons",
+                 "version": "1.0.8",
+                 "kind": "direct",
+                 "source": "hosted",
+                 "dependencies": [],
+                 "directDependencies": []
+               }
+             ],
+             "sdks": [
+               {
+                 "name": "Dart",
+                 "version": "3.8.1"
+               },
+               {
+                 "name": "Flutter",
+                 "version": "3.32.4"
+               }
+             ],
+             "executables": [
+               "xml:benchmark"
+             ]
+           }
+[  +94 ms] Found plugin audio_session at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\audio_session-0.2.2\
+[  +42 ms] Found plugin just_audio at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio-0.10.4\
+[   +5 ms] Found plugin just_audio_web at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio_web-0.4.16\
+[  +19 ms] Found plugin package_info_plus at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-8.3.0\
+[   +7 ms] Found plugin path_provider at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +2 ms] Found plugin path_provider_android at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.17\
+[   +2 ms] Found plugin path_provider_foundation at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.4.1\
+[   +2 ms] Found plugin path_provider_linux at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +4 ms] Found plugin path_provider_windows at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +13 ms] Found plugin share_plus at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-11.0.0\
+[   +9 ms] Found plugin sqflite at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.4.2\
+[   +2 ms] Found plugin sqflite_android at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.1\
+[   +4 ms] Found plugin sqflite_darwin at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_darwin-2.4.2\
+[  +14 ms] Found plugin url_launcher at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher-6.3.1\
+[   +2 ms] Found plugin url_launcher_android at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.16\
+[   +3 ms] Found plugin url_launcher_ios at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_ios-6.3.3\
+[   +2 ms] Found plugin url_launcher_linux at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.1\
+[   +5 ms] Found plugin url_launcher_macos at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_macos-3.2.2\
+[   +3 ms] Found plugin url_launcher_web at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.1\
+[   +1 ms] Found plugin url_launcher_windows at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.4\
+[  +11 ms] Found plugin webview_flutter at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter-4.13.0\
+[   +2 ms] Found plugin webview_flutter_android at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_android-4.7.0\
+[   +4 ms] Found plugin webview_flutter_wkwebview at C:\Users\WebDev\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_wkwebview-3.22.0\
+[  +21 ms] Generating D:\weru_digital\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[ +102 ms] executing: D:\Android Studio\jbr\bin\java -version
+[ +206 ms] Exit code 0 from: D:\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.6" 2025-01-21
+           OpenJDK Runtime Environment (build 21.0.6+-13368085-b895.109)
+           OpenJDK 64-Bit Server VM (build 21.0.6+-13368085-b895.109, mixed mode)
+[  +22 ms] executing: D:\Android Studio\jbr\bin\java --version
+[ +215 ms] Exit code 0 from: D:\Android Studio\jbr\bin\java --version
+[        ] openjdk 21.0.6 2025-01-21
+           OpenJDK Runtime Environment (build 21.0.6+-13368085-b895.109)
+           OpenJDK 64-Bit Server VM (build 21.0.6+-13368085-b895.109, mixed mode)
+[   +2 ms] Version of Java is different than impacted version, no migration attempted.
+[  +16 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +8 ms] Using gradle from D:\weru_digital\android\gradlew.bat.
+[  +47 ms] Running Gradle task 'assembleRelease'...
+[   +1 ms] executing: [D:\weru_digital\android/] D:\weru_digital\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuMzIuNA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NmZiYTI0NDdlOQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049OGNkMTllNTA5ZA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My44LjE= -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[+1389 ms] Initialized native services in: C:\Users\WebDev\.gradle\native
+[  +33 ms] Initialized jansi services in: C:\Users\WebDev\.gradle\native
+[ +228 ms] Received JVM installation metadata from 'D:\Android Studio\jbr': {JAVA_HOME=D:\Android Studio\jbr, JAVA_VERSION=21.0.6, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.6+-13368085-b895.109, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.6+-13368085-b895.109, VM_VENDOR=JetBrains s.r.o., OS_ARCH=amd64}
+[ +315 ms] Found daemon DaemonInfo{pid=11684, address=[cb431c62-a3a0-4089-921d-d251da218a8b port:63198, addresses:[/127.0.0.1]], state=Idle, lastBusy=1750878262440, context=DefaultDaemonContext[uid=5cc36c17-2488-4708-8d2e-5e9266abfc5a,javaHome=D:\Java17,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=11684,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[   +2 ms] Java home is different.
+[   +2 ms] Wanted: DefaultDaemonContext[uid=null,javaHome=D:\Android Studio\jbr,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=12644,idleTimeout=null,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[   +7 ms] Actual: DefaultDaemonContext[uid=5cc36c17-2488-4708-8d2e-5e9266abfc5a,javaHome=D:\Java17,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=11684,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[   +1 ms]   Looking for a different daemon...
+[   +6 ms] Found daemon DaemonInfo{pid=12304, address=[64528768-b130-4103-8a57-89982fbf00d5 port:57819, addresses:[/127.0.0.1]], state=Idle, lastBusy=1750958192204, context=DefaultDaemonContext[uid=bdf535f5-ec2d-4315-b046-930a087e4c93,javaHome=D:\Java,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=12304,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[   +2 ms] Java home is different.
+[   +1 ms] Wanted: DefaultDaemonContext[uid=null,javaHome=D:\Android Studio\jbr,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=12644,idleTimeout=null,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[        ] Actual: DefaultDaemonContext[uid=bdf535f5-ec2d-4315-b046-930a087e4c93,javaHome=D:\Java,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=12304,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]
+[        ]   Looking for a different daemon...
+[   +2 ms] Found daemon DaemonInfo{pid=19244, address=[4d625673-9cdb-4686-922d-121dfcf2fffc port:58247, addresses:[/127.0.0.1]], state=Idle, lastBusy=1750958378340, context=DefaultDaemonContext[uid=dabf53d8-4c74-4e4b-b8cc-9adee05032b1,javaHome=D:\Java17,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=19244,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[   +1 ms] Java home is different.
+[   +1 ms] Wanted: DefaultDaemonContext[uid=null,javaHome=D:\Android Studio\jbr,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=12644,idleTimeout=null,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[   +1 ms] Actual: DefaultDaemonContext[uid=dabf53d8-4c74-4e4b-b8cc-9adee05032b1,javaHome=D:\Java17,daemonRegistryDir=C:\Users\WebDev\.gradle\daemon,pid=19244,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[   +3 ms]   Looking for a different daemon...
+[  +81 ms] The client will now receive all logging from the daemon (pid: 16516). The daemon log file: C:\Users\WebDev\.gradle\daemon\8.4\daemon-16516.out.log
+[   +1 ms] Starting 5th build in daemon [uptime: 3 mins 32.336 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 1% of 4 GiB]
+[        ] Using 4 worker leases.
+[  +91 ms] Now considering [D:\weru_digital\android] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+flutter : [   +1 ms] FAILURE: Build failed 
+with an exception.
+At line:1 char:71
++ ... ME\bin;$env:PATH"; flutter build apk 
+--release --verbose 2>&1 | Out-F ...
++                        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([ 
+      +1 ms] FAIL...h an exception.:String) [  
+  ], RemoteException
+    + FullyQualifiedErrorId : NativeCommandErr 
+   or
+ 
+[   +2 ms] * Where:
+[        ] Script 'D:\flutter\packages\flutter_
+tools\gradle\app_plugin_loader.gradle' line: 9
+[        ] * What went wrong:
+[        ] A problem occurred evaluating 
+script.
+[        ] > You are applying Flutter's 
+app_plugin_loader Gradle plugin imperatively 
+using the apply script method, which is not 
+possible anymore. Migrate to applying Gradle 
+plugins with the declarative plugins block: htt
+ps://flutter.dev/to/flutter-gradle-plugin-apply
+[        ] * Try:
+[        ] > Run with --debug option to get 
+more log output.
+[        ] > Run with --scan to get full 
+insights.
+[        ] > Get more help at 
+https://help.gradle.org.
+[        ] * Exception is:
+[        ] 
+org.gradle.api.GradleScriptException: A 
+problem occurred evaluating script.
+[        ] 	at org.gradle.groovy.scripts.intern
+al.DefaultScriptRunnerFactory$ScriptRunnerImpl.
+run(DefaultScriptRunnerFactory.java:93)
+[        ] 	at org.gradle.configuration.Default
+ScriptPluginFactory$ScriptPluginImpl.lambda$app
+ly$0(DefaultScriptPluginFactory.java:136)
+[        ] 	at org.gradle.configuration.Default
+ScriptTarget.addConfiguration(DefaultScriptTarg
+et.java:74)
+[   +6 ms] 	at org.gradle.configuration.Default
+ScriptPluginFactory$ScriptPluginImpl.apply(Defa
+ultScriptPluginFactory.java:139)
+[        ] 	at org.gradle.configuration.BuildOp
+erationScriptPlugin$1.run(BuildOperationScriptP
+lugin.java:65)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$1.execute(DefaultBui
+ldOperationRunner.java:29)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$1.execute(DefaultBui
+ldOperationRunner.java:26)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:66)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:157)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.run(DefaultBuildOper
+ationRunner.java:47)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationExecutor.run(DefaultBuildOp
+erationExecutor.java:73)
+[        ] 	at org.gradle.configuration.BuildOp
+erationScriptPlugin.lambda$apply$0(BuildOperati
+onScriptPlugin.java:62)
+[        ] 	at org.gradle.configuration.interna
+l.DefaultUserCodeApplicationContext.apply(Defau
+ltUserCodeApplicationContext.java:44)
+[        ] 	at org.gradle.configuration.BuildOp
+erationScriptPlugin.apply(BuildOperationScriptP
+lugin.java:62)
+[        ] 	at org.gradle.api.internal.plugins.
+DefaultObjectConfigurationAction.applyScript(De
+faultObjectConfigurationAction.java:150)
+[        ] 	at org.gradle.api.internal.plugins.
+DefaultObjectConfigurationAction.access$000(Def
+aultObjectConfigurationAction.java:43)
+[        ] 	at org.gradle.api.internal.plugins.
+DefaultObjectConfigurationAction$1.run(DefaultO
+bjectConfigurationAction.java:76)
+[        ] 	at org.gradle.api.internal.plugins.
+DefaultObjectConfigurationAction.execute(Defaul
+tObjectConfigurationAction.java:184)
+[        ] 	at org.gradle.groovy.scripts.Defaul
+tScript.apply(DefaultScript.java:133)
+[        ] 	at org.gradle.api.Script$apply.call
+Current(Unknown Source)
+[        ] 	at settings_7ozio7htpwqxbz7yme18k12
+se.run(D:\weru_digital\android\settings.gradle:
+11)
+[        ] 	at org.gradle.groovy.scripts.intern
+al.DefaultScriptRunnerFactory$ScriptRunnerImpl.
+run(DefaultScriptRunnerFactory.java:91)
+[        ] 	at org.gradle.configuration.Default
+ScriptPluginFactory$ScriptPluginImpl.lambda$app
+ly$0(DefaultScriptPluginFactory.java:136)
+[   +1 ms] 	at org.gradle.configuration.Default
+ScriptTarget.addConfiguration(DefaultScriptTarg
+et.java:74)
+[   +1 ms] 	at org.gradle.configuration.Default
+ScriptPluginFactory$ScriptPluginImpl.apply(Defa
+ultScriptPluginFactory.java:139)
+[        ] 	at org.gradle.configuration.BuildOp
+erationScriptPlugin$1.run(BuildOperationScriptP
+lugin.java:65)
+[   +1 ms] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$1.execute(DefaultBui
+ldOperationRunner.java:29)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$1.execute(DefaultBui
+ldOperationRunner.java:26)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:66)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:157)
+[   +1 ms] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.run(DefaultBuildOper
+ationRunner.java:47)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationExecutor.run(DefaultBuildOp
+erationExecutor.java:73)
+[        ] 	at org.gradle.configuration.BuildOp
+erationScriptPlugin.lambda$apply$0(BuildOperati
+onScriptPlugin.java:62)
+[        ] 	at org.gradle.configuration.interna
+l.DefaultUserCodeApplicationContext.apply(Defau
+ltUserCodeApplicationContext.java:44)
+[  +82 ms] 	at org.gradle.configuration.BuildOp
+erationScriptPlugin.apply(BuildOperationScriptP
+lugin.java:62)
+[   +1 ms] 	at org.gradle.initialization.Script
+EvaluatingSettingsProcessor.applySettingsScript
+(ScriptEvaluatingSettingsProcessor.java:75)
+[   +2 ms] 	at org.gradle.initialization.Script
+EvaluatingSettingsProcessor.process(ScriptEvalu
+atingSettingsProcessor.java:68)
+[   +1 ms] 	at org.gradle.initialization.Settin
+gsEvaluatedCallbackFiringSettingsProcessor.proc
+ess(SettingsEvaluatedCallbackFiringSettingsProc
+essor.java:34)
+[   +1 ms] 	at org.gradle.initialization.RootBu
+ildCacheControllerSettingsProcessor.process(Roo
+tBuildCacheControllerSettingsProcessor.java:46)
+[        ] 	at org.gradle.initialization.BuildO
+perationSettingsProcessor$2.call(BuildOperation
+SettingsProcessor.java:49)
+[        ] 	at org.gradle.initialization.BuildO
+perationSettingsProcessor$2.call(BuildOperation
+SettingsProcessor.java:46)
+[  +10 ms] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$CallableBuildOperati
+onWorker.execute(DefaultBuildOperationRunner.ja
+va:204)
+[   +9 ms] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$CallableBuildOperati
+onWorker.execute(DefaultBuildOperationRunner.ja
+va:199)
+[  +39 ms] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:66)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:59)
+[   +1 ms] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:157)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.call(DefaultBuildOpe
+rationRunner.java:53)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationExecutor.call(DefaultBuildO
+perationExecutor.java:78)
+[        ] 	at org.gradle.initialization.BuildO
+perationSettingsProcessor.process(BuildOperatio
+nSettingsProcessor.java:46)
+[        ] 	at org.gradle.initialization.Defaul
+tSettingsLoader.findSettingsAndLoadIfAppropriat
+e(DefaultSettingsLoader.java:143)
+[        ] 	at org.gradle.initialization.Defaul
+tSettingsLoader.findAndLoadSettings(DefaultSett
+ingsLoader.java:63)
+[        ] 	at org.gradle.initialization.Settin
+gsAttachingSettingsLoader.findAndLoadSettings(S
+ettingsAttachingSettingsLoader.java:33)
+[        ] 	at org.gradle.internal.composite.Co
+mmandLineIncludedBuildSettingsLoader.findAndLoa
+dSettings(CommandLineIncludedBuildSettingsLoade
+r.java:35)
+[        ] 	at org.gradle.internal.composite.Ch
+ildBuildRegisteringSettingsLoader.findAndLoadSe
+ttings(ChildBuildRegisteringSettingsLoader.java
+:44)
+[        ] 	at org.gradle.internal.composite.Co
+mpositeBuildSettingsLoader.findAndLoadSettings(
+CompositeBuildSettingsLoader.java:35)
+[        ] 	at org.gradle.initialization.InitSc
+riptHandlingSettingsLoader.findAndLoadSettings(
+InitScriptHandlingSettingsLoader.java:33)
+[        ] 	at org.gradle.api.internal.initiali
+zation.CacheConfigurationsHandlingSettingsLoade
+r.findAndLoadSettings(CacheConfigurationsHandli
+ngSettingsLoader.java:36)
+[        ] 	at org.gradle.initialization.Gradle
+PropertiesHandlingSettingsLoader.findAndLoadSet
+tings(GradlePropertiesHandlingSettingsLoader.ja
+va:38)
+[        ] 	at org.gradle.initialization.Defaul
+tSettingsPreparer.prepareSettings(DefaultSettin
+gsPreparer.java:31)
+[        ] 	at org.gradle.initialization.BuildO
+perationFiringSettingsPreparer$LoadBuild.doLoad
+Build(BuildOperationFiringSettingsPreparer.java
+:71)
+[        ] 	at org.gradle.initialization.BuildO
+perationFiringSettingsPreparer$LoadBuild.run(Bu
+ildOperationFiringSettingsPreparer.java:66)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$1.execute(DefaultBui
+ldOperationRunner.java:29)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$1.execute(DefaultBui
+ldOperationRunner.java:26)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:66)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:157)
+[   +2 ms] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.run(DefaultBuildOper
+ationRunner.java:47)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationExecutor.run(DefaultBuildOp
+erationExecutor.java:73)
+[        ] 	at org.gradle.initialization.BuildO
+perationFiringSettingsPreparer.prepareSettings(
+BuildOperationFiringSettingsPreparer.java:54)
+[        ] 	at org.gradle.initialization.Vintag
+eBuildModelController.lambda$prepareSettings$1(
+VintageBuildModelController.java:80)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.lambda$doTransition$14(Stat
+eTransitionController.java:255)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.doTransition(StateTransitio
+nController.java:266)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.doTransition(StateTransitio
+nController.java:254)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.lambda$transitionIfNotPrevi
+ously$11(StateTransitionController.java:213)
+[        ] 	at org.gradle.internal.work.Default
+Synchronizer.withLock(DefaultSynchronizer.java:
+34)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.transitionIfNotPreviously(S
+tateTransitionController.java:209)
+[        ] 	at org.gradle.initialization.Vintag
+eBuildModelController.prepareSettings(VintageBu
+ildModelController.java:80)
+[        ] 	at org.gradle.initialization.Vintag
+eBuildModelController.prepareToScheduleTasks(Vi
+ntageBuildModelController.java:70)
+[        ] 	at org.gradle.internal.build.Defaul
+tBuildLifecycleController.lambda$prepareToSched
+uleTasks$6(DefaultBuildLifecycleController.java
+:175)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.lambda$doTransition$14(Stat
+eTransitionController.java:255)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.doTransition(StateTransitio
+nController.java:266)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.doTransition(StateTransitio
+nController.java:254)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.lambda$maybeTransition$9(St
+ateTransitionController.java:190)
+[        ] 	at org.gradle.internal.work.Default
+Synchronizer.withLock(DefaultSynchronizer.java:
+34)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.maybeTransition(StateTransi
+tionController.java:186)
+[   +2 ms] 	at org.gradle.internal.build.Defaul
+tBuildLifecycleController.prepareToScheduleTask
+s(DefaultBuildLifecycleController.java:173)
+[   +1 ms] 	at org.gradle.internal.buildtree.De
+faultBuildTreeWorkPreparer.scheduleRequestedTas
+ks(DefaultBuildTreeWorkPreparer.java:36)
+[        ] 	at org.gradle.configurationcache.Vi
+ntageBuildTreeWorkController$scheduleAndRunRequ
+estedTasks$1.apply(VintageBuildTreeWorkControll
+er.kt:36)
+[        ] 	at org.gradle.configurationcache.Vi
+ntageBuildTreeWorkController$scheduleAndRunRequ
+estedTasks$1.apply(VintageBuildTreeWorkControll
+er.kt:35)
+[        ] 	at org.gradle.composite.internal.De
+faultIncludedBuildTaskGraph.withNewWorkGraph(De
+faultIncludedBuildTaskGraph.java:112)
+[        ] 	at org.gradle.configurationcache.Vi
+ntageBuildTreeWorkController.scheduleAndRunRequ
+estedTasks(VintageBuildTreeWorkController.kt:35
+)
+[        ] 	at org.gradle.internal.buildtree.De
+faultBuildTreeLifecycleController.lambda$schedu
+leAndRunTasks$1(DefaultBuildTreeLifecycleContro
+ller.java:68)
+[        ] 	at org.gradle.internal.buildtree.De
+faultBuildTreeLifecycleController.lambda$runBui
+ld$4(DefaultBuildTreeLifecycleController.java:9
+8)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.lambda$transition$6(StateTr
+ansitionController.java:169)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.doTransition(StateTransitio
+nController.java:266)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.lambda$transition$7(StateTr
+ansitionController.java:169)
+[        ] 	at org.gradle.internal.work.Default
+Synchronizer.withLock(DefaultSynchronizer.java:
+44)
+[        ] 	at org.gradle.internal.model.StateT
+ransitionController.transition(StateTransitionC
+ontroller.java:169)
+[        ] 	at org.gradle.internal.buildtree.De
+faultBuildTreeLifecycleController.runBuild(Defa
+ultBuildTreeLifecycleController.java:95)
+[        ] 	at org.gradle.internal.buildtree.De
+faultBuildTreeLifecycleController.scheduleAndRu
+nTasks(DefaultBuildTreeLifecycleController.java
+:68)
+[        ] 	at org.gradle.internal.buildtree.De
+faultBuildTreeLifecycleController.scheduleAndRu
+nTasks(DefaultBuildTreeLifecycleController.java
+:63)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.ExecuteBuildActionRunner.run(ExecuteBuildA
+ctionRunner.java:31)
+[        ] 	at org.gradle.launcher.exec.Chainin
+gBuildActionRunner.run(ChainingBuildActionRunne
+r.java:35)
+[        ] 	at org.gradle.internal.buildtree.Pr
+oblemReportingBuildActionRunner.run(ProblemRepo
+rtingBuildActionRunner.java:49)
+[        ] 	at org.gradle.launcher.exec.BuildOu
+tcomeReportingBuildActionRunner.run(BuildOutcom
+eReportingBuildActionRunner.java:65)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.FileSystemWatchingBuildActionRunner.run(Fi
+leSystemWatchingBuildActionRunner.java:140)
+[        ] 	at org.gradle.launcher.exec.BuildCo
+mpletionNotifyingBuildActionRunner.run(BuildCom
+pletionNotifyingBuildActionRunner.java:41)
+[        ] 	at org.gradle.launcher.exec.RootBui
+ldLifecycleBuildActionExecutor.lambda$execute$0
+(RootBuildLifecycleBuildActionExecutor.java:40)
+[        ] 	at org.gradle.composite.internal.De
+faultRootBuildState.run(DefaultRootBuildState.j
+ava:123)
+[        ] 	at org.gradle.launcher.exec.RootBui
+ldLifecycleBuildActionExecutor.execute(RootBuil
+dLifecycleBuildActionExecutor.java:40)
+[        ] 	at org.gradle.internal.buildtree.In
+itDeprecationLoggingActionExecutor.execute(Init
+DeprecationLoggingActionExecutor.java:62)
+[        ] 	at org.gradle.internal.buildtree.In
+itProblems.execute(InitProblems.java:38)
+[        ] 	at org.gradle.internal.buildtree.De
+faultBuildTreeContext.execute(DefaultBuildTreeC
+ontext.java:40)
+[        ] 	at org.gradle.launcher.exec.BuildTr
+eeLifecycleBuildActionExecutor.lambda$execute$0
+(BuildTreeLifecycleBuildActionExecutor.java:65)
+[        ] 	at org.gradle.internal.buildtree.Bu
+ildTreeState.run(BuildTreeState.java:58)
+[        ] 	at org.gradle.launcher.exec.BuildTr
+eeLifecycleBuildActionExecutor.execute(BuildTre
+eLifecycleBuildActionExecutor.java:65)
+[        ] 	at org.gradle.launcher.exec.RunAsBu
+ildOperationBuildActionExecutor$3.call(RunAsBui
+ldOperationBuildActionExecutor.java:61)
+[        ] 	at org.gradle.launcher.exec.RunAsBu
+ildOperationBuildActionExecutor$3.call(RunAsBui
+ldOperationBuildActionExecutor.java:57)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$CallableBuildOperati
+onWorker.execute(DefaultBuildOperationRunner.ja
+va:204)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$CallableBuildOperati
+onWorker.execute(DefaultBuildOperationRunner.ja
+va:199)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:66)
+[   +4 ms] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner$2.execute(DefaultBui
+ldOperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:157)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.execute(DefaultBuild
+OperationRunner.java:59)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationRunner.call(DefaultBuildOpe
+rationRunner.java:53)
+[        ] 	at org.gradle.internal.operations.D
+efaultBuildOperationExecutor.call(DefaultBuildO
+perationExecutor.java:78)
+[        ] 	at org.gradle.launcher.exec.RunAsBu
+ildOperationBuildActionExecutor.execute(RunAsBu
+ildOperationBuildActionExecutor.java:57)
+[        ] 	at org.gradle.launcher.exec.RunAsWo
+rkerThreadBuildActionExecutor.lambda$execute$0(
+RunAsWorkerThreadBuildActionExecutor.java:36)
+[        ] 	at org.gradle.internal.work.Default
+WorkerLeaseService.withLocks(DefaultWorkerLease
+Service.java:264)
+[        ] 	at org.gradle.internal.work.Default
+WorkerLeaseService.runAsWorkerThread(DefaultWor
+kerLeaseService.java:128)
+[        ] 	at org.gradle.launcher.exec.RunAsWo
+rkerThreadBuildActionExecutor.execute(RunAsWork
+erThreadBuildActionExecutor.java:36)
+[   +1 ms] 	at org.gradle.tooling.internal.prov
+ider.continuous.ContinuousBuildActionExecutor.e
+xecute(ContinuousBuildActionExecutor.java:110)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.SubscribableBuildActionExecutor.execute(Su
+bscribableBuildActionExecutor.java:64)
+[        ] 	at org.gradle.internal.session.Defa
+ultBuildSessionContext.execute(DefaultBuildSess
+ionContext.java:46)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.BuildSessionLifecycleBuildActionExecuter$A
+ctionImpl.apply(BuildSessionLifecycleBuildActio
+nExecuter.java:92)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.BuildSessionLifecycleBuildActionExecuter$A
+ctionImpl.apply(BuildSessionLifecycleBuildActio
+nExecuter.java:80)
+[        ] 	at org.gradle.internal.session.Buil
+dSessionState.run(BuildSessionState.java:69)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.BuildSessionLifecycleBuildActionExecuter.e
+xecute(BuildSessionLifecycleBuildActionExecuter
+.java:62)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.BuildSessionLifecycleBuildActionExecuter.e
+xecute(BuildSessionLifecycleBuildActionExecuter
+.java:41)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.StartParamsValidatingActionExecuter.execut
+e(StartParamsValidatingActionExecuter.java:64)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.StartParamsValidatingActionExecuter.execut
+e(StartParamsValidatingActionExecuter.java:32)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.SessionFailureReportingActionExecuter.exec
+ute(SessionFailureReportingActionExecuter.java:
+51)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.SessionFailureReportingActionExecuter.exec
+ute(SessionFailureReportingActionExecuter.java:
+39)
+[        ] 	at org.gradle.tooling.internal.prov
+ider.SetupLoggingActionExecuter.execute(SetupLo
+ggingActionExecuter.java:47)
+[  +69 ms] 	at org.gradle.tooling.internal.prov
+ider.SetupLoggingActionExecuter.execute(SetupLo
+ggingActionExecuter.java:31)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.ExecuteBuild.doBuild(ExecuteBuild.java:6
+5)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.BuildCommandOnly.execute(BuildCommandOnl
+y.java:37)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.api.DaemonCommandExecution.proceed(DaemonComm
+andExecution.java:104)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.WatchForDisconnection.execute(WatchForDi
+sconnection.java:39)
+[        ] Watched directory hierarchies: []
+[        ] 	at org.gradle.launcher.daemon.serve
+r.api.DaemonCommandExecution.proceed(DaemonComm
+andExecution.java:104)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.ResetDeprecationLogger.execute(ResetDepr
+ecationLogger.java:29)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.api.DaemonCommandExecution.proceed(DaemonComm
+andExecution.java:104)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.RequestStopIfSingleUsedDaemon.execute(Re
+questStopIfSingleUsedDaemon.java:35)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.api.DaemonCommandExecution.proceed(DaemonComm
+andExecution.java:104)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.ForwardClientInput$2.create(ForwardClien
+tInput.java:78)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.ForwardClientInput$2.create(ForwardClien
+tInput.java:75)
+[        ] 	at org.gradle.util.internal.Swapper
+.swap(Swapper.java:38)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.ForwardClientInput.execute(ForwardClient
+Input.java:75)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.api.DaemonCommandExecution.proceed(DaemonComm
+andExecution.java:104)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.LogAndCheckHealth.execute(LogAndCheckHea
+lth.java:64)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.api.DaemonCommandExecution.proceed(DaemonComm
+andExecution.java:104)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.LogToClient.doBuild(LogToClient.java:63)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.BuildCommandOnly.execute(BuildCommandOnl
+y.java:37)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.api.DaemonCommandExecution.proceed(DaemonComm
+andExecution.java:104)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.EstablishBuildEnvironment.doBuild(Establ
+ishBuildEnvironment.java:84)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.BuildCommandOnly.execute(BuildCommandOnl
+y.java:37)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.api.DaemonCommandExecution.proceed(DaemonComm
+andExecution.java:104)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.exec.StartBuildOrRespondWithBusy$1.run(StartB
+uildOrRespondWithBusy.java:52)
+[        ] 	at org.gradle.launcher.daemon.serve
+r.DaemonStateCoordinator$1.run(DaemonStateCoord
+inator.java:297)
+[        ] 	at org.gradle.internal.concurrent.E
+xecutorPolicy$CatchAndRecordFailures.onExecute(
+ExecutorPolicy.java:64)
+[   +1 ms] 	at org.gradle.internal.concurrent.A
+bstractManagedExecutor$1.run(AbstractManagedExe
+cutor.java:47)
+[        ] 	at java.base/java.util.concurrent.T
+hreadPoolExecutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.T
+hreadPoolExecutor$Worker.run(Unknown Source)
+[        ] 	at 
+java.base/java.lang.Thread.run(Unknown Source)
+[        ] Caused by: 
+org.gradle.api.GradleException: You are 
+applying Flutter's app_plugin_loader Gradle 
+plugin imperatively using the apply script 
+method, which is not possible anymore. Migrate 
+to applying Gradle plugins with the 
+declarative plugins block: https://flutter.dev/
+to/flutter-gradle-plugin-apply
+[        ] 	at java.base/jdk.internal.reflect.D
+irectConstructorHandleAccessor.newInstance(Unkn
+own Source)
+[        ] 	at java.base/java.lang.reflect.Cons
+tructor.newInstanceWithCaller(Unknown Source)
+[        ] 	at java.base/java.lang.reflect.Cons
+tructor.newInstance(Unknown Source)
+[        ] 	at org.codehaus.groovy.reflection.C
+achedConstructor.invoke(CachedConstructor.java:
+72)
+[        ] 	at org.codehaus.groovy.runtime.call
+site.ConstructorSite$ConstructorSiteNoUnwrapNoC
+oerce.callConstructor(ConstructorSite.java:105)
+[   +4 ms] 	at org.codehaus.groovy.runtime.call
+site.AbstractCallSite.callConstructor(AbstractC
+allSite.java:277)
+[        ] 	at app_plugin_loader_685n8ylzdp5cu3
+1sq75v02nt1.run(D:\flutter\packages\flutter_too
+ls\gradle\app_plugin_loader.gradle:9)
+[        ] 	at org.gradle.groovy.scripts.intern
+al.DefaultScriptRunnerFactory$ScriptRunnerImpl.
+run(DefaultScriptRunnerFactory.java:91)
+[        ] 	... 179 more
+[        ] BUILD FAILED in 1s
+[ +544 ms] Running Gradle task 'assembleRelease'... (completed in 3.0s)
+[ +117 ms] "flutter apk" took 7,161ms.
+[ +152 ms] Gradle task assembleRelease failed 
+with exit code 1
+[        ] 
+           #0      throwToolExit (package:flutt
+er_tools/src/base/common.dart:34:3)
+           #1      
+AndroidGradleBuilder.buildGradleApp (package:fl
+utter_tools/src/android/gradle.dart:582:7)
+           <asynchronous suspension>
+           #2      
+AndroidGradleBuilder.buildApk (package:flutter_
+tools/src/android/gradle.dart:242:5)
+           <asynchronous suspension>
+           #3      BuildApkCommand.runCommand (
+package:flutter_tools/src/commands/build_apk.da
+rt:141:5)
+           <asynchronous suspension>
+           #4      
+FlutterCommand.run.<anonymous closure> (package
+:flutter_tools/src/runner/flutter_command.dart:
+1563:27)
+           <asynchronous suspension>
+           #5      AppContext.run.<anonymous 
+closure> (package:flutter_tools/src/base/contex
+t.dart:154:19)
+           <asynchronous suspension>
+           #6      CommandRunner.runCommand 
+(package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #7      
+FlutterCommandRunner.runCommand.<anonymous 
+closure> (package:flutter_tools/src/runner/flut
+ter_command_runner.dart:494:9)
+           <asynchronous suspension>
+           #8      AppContext.run.<anonymous 
+closure> (package:flutter_tools/src/base/contex
+t.dart:154:19)
+           <asynchronous suspension>
+           #9      
+FlutterCommandRunner.runCommand (package:flutte
+r_tools/src/runner/flutter_command_runner.dart:
+431:5)
+           <asynchronous suspension>
+           #10     run.<anonymous 
+closure>.<anonymous closure> 
+(package:flutter_tools/runner.dart:98:11)
+           <asynchronous suspension>
+           #11     AppContext.run.<anonymous 
+closure> (package:flutter_tools/src/base/contex
+t.dart:154:19)
+           <asynchronous suspension>
+           #12     main 
+(package:flutter_tools/executable.dart:102:3)
+           <asynchronous suspension>
+
+
+[   +1 ms] Running 1 shutdown hook
+[   +2 ms] Shutdown hooks complete
+[ +277 ms] exiting with code 1

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Debug overrides for development -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </debug-overrides>
+    
+    <!-- High-priority streaming domains -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Radio streaming with enhanced settings -->
+        <domain includeSubdomains="true">media2.streambrothers.com</domain>
+        <domain includeSubdomains="true">streambrothers.com</domain>
+        <domain includeSubdomains="true">icecast.streambrothers.com</domain>
+        
+        <!-- TV streaming with autoplay support -->
+        <domain includeSubdomains="true">ok.ru</domain>
+        <domain includeSubdomains="true">www.ok.ru</domain>
+        <domain includeSubdomains="true">m.ok.ru</domain>
+        <domain includeSubdomains="true">static.ok.ru</domain>
+        
+        <!-- News RSS feeds -->
+        <domain includeSubdomains="true">werudigital.co.ke</domain>
+        <domain includeSubdomains="true">www.werudigital.co.ke</domain>
+        
+        <!-- CDN and asset domains -->
+        <domain includeSubdomains="true">cloudflare.com</domain>
+        <domain includeSubdomains="true">cdnjs.cloudflare.com</domain>
+        
+        <!-- Development domains -->
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">192.168.1.1</domain>
+    </domain-config>
+    
+    <!-- Global configuration with enhanced security -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>
