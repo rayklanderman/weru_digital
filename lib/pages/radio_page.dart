@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:audio_session/audio_session.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:async';
 
@@ -14,6 +15,7 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
   final AudioPlayer _audioPlayer = AudioPlayer();
   bool _isPlaying = false;
   bool _isLoading = false;
+  Timer? _reconnectTimer;
   StreamSubscription<PlayerState>? _playerStateSubscription;
   StreamSubscription<Duration?>? _durationSubscription;
   StreamSubscription<Duration>? _positionSubscription;
@@ -28,6 +30,7 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    _reconnectTimer?.cancel();
     _playerStateSubscription?.cancel();
     _durationSubscription?.cancel();
     _positionSubscription?.cancel();
@@ -37,30 +40,80 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    // Handle app lifecycle changes for better streaming experience
+    // Enhanced app lifecycle handling for background playback
     switch (state) {
       case AppLifecycleState.paused:
-        // Keep playing in background
+        // Keep playing in background - don't pause automatically
+        debugPrint('App paused - radio continues in background');
         break;
       case AppLifecycleState.resumed:
-        // Resume if was playing
+        // Only check connection if we were playing but player stopped
+        debugPrint('App resumed - checking radio connection');
         if (_isPlaying && !_audioPlayer.playing) {
-          _reconnectStream();
+          Future.delayed(const Duration(seconds: 2), () {
+            if (mounted && _isPlaying && !_audioPlayer.playing) {
+              _reconnectStream();
+            }
+          });
         }
         break;
+      case AppLifecycleState.inactive:
+        // App temporarily inactive (e.g., phone call) - keep playing
+        debugPrint('App inactive - radio continues');
+        break;
       case AppLifecycleState.detached:
+        // Only stop when app is completely detached
+        debugPrint('App detached - stopping radio');
         _audioPlayer.stop();
         break;
-      default:
+      case AppLifecycleState.hidden:
+        // App hidden but still running - keep playing
+        debugPrint('App hidden - radio continues');
         break;
     }
   }
 
-  void _initializeAudioPlayer() {
-    // Configure audio player for streaming
-    _audioPlayer.setCanUseNetworkResourcesForLiveStreamingWhilePaused(true);
+  void _initializeAudioPlayer() async {
+    // Configure audio session for background playback
+    try {
+      final session = await AudioSession.instance;
+      await session.configure(const AudioSessionConfiguration(
+        avAudioSessionCategory: AVAudioSessionCategory.playback,
+        avAudioSessionCategoryOptions: AVAudioSessionCategoryOptions.duckOthers,
+        avAudioSessionMode: AVAudioSessionMode.defaultMode,
+        avAudioSessionRouteSharingPolicy:
+            AVAudioSessionRouteSharingPolicy.defaultPolicy,
+        avAudioSessionSetActiveOptions: AVAudioSessionSetActiveOptions.none,
+        androidAudioAttributes: AndroidAudioAttributes(
+          contentType: AndroidAudioContentType.music,
+          flags: AndroidAudioFlags.none,
+          usage: AndroidAudioUsage.media,
+        ),
+        androidAudioFocusGainType: AndroidAudioFocusGainType.gain,
+        androidWillPauseWhenDucked: false,
+      ));
+    } catch (e) {
+      // Handle audio session configuration error
+      debugPrint('Failed to configure audio session: $e');
+    }
 
-    // Listen to player state changes
+    // Configure audio player for streaming with enhanced settings
+    try {
+      await _audioPlayer.setAudioSource(
+        AudioSource.uri(
+          Uri.parse('https://media2.streambrothers.com:2020/stream/8212'),
+        ),
+        preload: false,
+      );
+    } catch (e) {
+      debugPrint('Failed to set audio source: $e');
+    }
+
+    // Enable background playback
+    _audioPlayer.setCanUseNetworkResourcesForLiveStreamingWhilePaused(true);
+    _audioPlayer.setSkipSilenceEnabled(false);
+
+    // Listen to player state changes - simplified to avoid aggressive reconnections
     _playerStateSubscription = _audioPlayer.playerStateStream.listen((state) {
       if (mounted) {
         setState(() {
@@ -69,9 +122,15 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
               state.processingState == ProcessingState.buffering;
         });
 
-        // Handle connection errors and auto-reconnect
-        if (state.processingState == ProcessingState.idle && _isPlaying) {
-          _reconnectStream();
+        // Only handle stream completed (shouldn't happen with live stream)
+        // Removed ProcessingState.idle trigger as it's normal for live streams
+        if (state.processingState == ProcessingState.completed && _isPlaying) {
+          debugPrint('Stream completed unexpectedly - reconnecting');
+          Future.delayed(const Duration(seconds: 2), () {
+            if (mounted && _isPlaying) {
+              _reconnectStream();
+            }
+          });
         }
       }
     });
@@ -90,14 +149,32 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
   Future<void> _reconnectStream() async {
     if (!mounted) return;
 
+    debugPrint('Attempting to reconnect radio stream...');
+
     try {
-      await _audioPlayer.setUrl(
-        'https://media2.streambrothers.com:2020/stream/8212',
+      // Stop current stream first
+      await _audioPlayer.stop();
+
+      // Wait a moment before reconnecting
+      await Future.delayed(const Duration(milliseconds: 500));
+
+      // Set the audio source again
+      await _audioPlayer.setAudioSource(
+        AudioSource.uri(
+          Uri.parse('https://media2.streambrothers.com:2020/stream/8212'),
+        ),
         preload: false,
       );
+
+      // Start playing
       await _audioPlayer.play();
+
+      debugPrint('Radio stream reconnected successfully');
     } catch (e) {
-      _handleStreamError(e);
+      debugPrint('Failed to reconnect radio stream: $e');
+      if (mounted) {
+        _handleStreamError(e);
+      }
     }
   }
 
@@ -124,6 +201,8 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
 
   Future<void> _togglePlayback() async {
     if (_isPlaying) {
+      // User manually paused - stop the stream
+      debugPrint('User paused radio stream');
       await _audioPlayer.pause();
     } else {
       setState(() {
@@ -131,21 +210,28 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
       });
 
       try {
+        debugPrint('Starting radio stream...');
+
         // Enhanced connection with timeout and retry logic
         await _audioPlayer
-            .setUrl(
-          'https://media2.streambrothers.com:2020/stream/8212',
+            .setAudioSource(
+          AudioSource.uri(
+            Uri.parse('https://media2.streambrothers.com:2020/stream/8212'),
+          ),
           preload: false,
         )
             .timeout(
-          const Duration(seconds: 10),
+          const Duration(seconds: 15),
           onTimeout: () {
             throw TimeoutException(
-                'Connection timeout', const Duration(seconds: 10));
+                'Connection timeout - please check your internet connection',
+                const Duration(seconds: 15));
           },
         );
 
         await _audioPlayer.play();
+
+        debugPrint('Radio stream started successfully');
 
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
@@ -163,6 +249,8 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
           );
         }
       } catch (e) {
+        debugPrint('Failed to start radio stream: $e');
+
         setState(() {
           _isLoading = false;
         });
@@ -176,7 +264,9 @@ class _RadioPageState extends State<RadioPage> with WidgetsBindingObserver {
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      'Failed to connect. Check your internet connection.',
+                      e.toString().contains('timeout')
+                          ? 'Connection timeout. Please check your internet.'
+                          : 'Failed to connect. Please check your internet connection.',
                       style: const TextStyle(color: Colors.white),
                     ),
                   ),

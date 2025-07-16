@@ -12,12 +12,14 @@ A comprehensive Flutter mobile application that brings Weru Digital's TV program
 ## 🌟 Features
 
 ### 📺 **Live TV Streaming**
+
 - **HD Quality Streaming:** Seamless livestream integration with OK.ru platform
 - **Overlay Protection:** Custom branding overlay system to maintain brand identity
 - **Responsive Player:** 16:9 aspect ratio optimized for mobile viewing
 - **CORS & HTTPS Compatible:** Secure streaming with modern web standards
 
 ### 📋 **TV Programming Schedule**
+
 - **Comprehensive Show Listings:** Detailed information for all programs
 - **6 Featured Shows:**
   - **URIA NDAGITARI** - Healthcare (Mondays, 6:30-7:20 PM)
@@ -28,16 +30,19 @@ A comprehensive Flutter mobile application that brings Weru Digital's TV program
   - **NKATHA CIETU** - Women's Empowerment (Tuesdays, 8:20-8:45 PM)
 
 ### 🎵 **Radio Integration**
+
 - Live radio streaming capabilities
 - Audio player with modern controls
 - Background playback support
 
 ### 📰 **News & Content**
+
 - RSS feed integration for latest news
 - Article reading with WebView
 - Content sharing functionality
 
 ### 🛡️ **Privacy-First Design**
+
 - **Zero Data Collection:** No personal information collected
 - **Local Operation:** All functionality runs locally on device
 - **Transparent Privacy Policy:** Clear and honest data practices
@@ -46,6 +51,7 @@ A comprehensive Flutter mobile application that brings Weru Digital's TV program
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Flutter 3.0+ installed
 - Android Studio or VS Code
 - Android SDK configured
@@ -54,12 +60,14 @@ A comprehensive Flutter mobile application that brings Weru Digital's TV program
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/rayklanderman/weru_digital.git
    cd weru_digital
    ```
 
 2. **Install dependencies**
+
    ```bash
    flutter pub get
    ```
@@ -72,6 +80,7 @@ A comprehensive Flutter mobile application that brings Weru Digital's TV program
 ### Building for Release
 
 1. **Build APK**
+
    ```bash
    flutter build apk --release
    ```
@@ -84,6 +93,7 @@ A comprehensive Flutter mobile application that brings Weru Digital's TV program
 ## 🏗️ Architecture
 
 ### 📁 Project Structure
+
 ```
 lib/
 ├── main.dart                 # App entry point
@@ -101,6 +111,7 @@ lib/
 ```
 
 ### 🔧 Key Technologies
+
 - **Flutter Framework:** Cross-platform mobile development
 - **WebView Flutter:** Embedded web content display
 - **Just Audio:** Audio streaming capabilities
@@ -111,16 +122,19 @@ lib/
 ## 📱 App Screenshots
 
 ### 🎬 TV Streaming
+
 - Live video player with custom overlays
 - Professional UI with Weru Digital branding
 - Responsive design for all screen sizes
 
 ### 📋 Programming Guide
+
 - Expandable program cards with detailed information
 - Host information and show descriptions
 - Schedule timing and focus areas
 
 ### 🎵 Radio Player
+
 - Modern audio controls
 - Background playback support
 - Real-time streaming status
@@ -128,12 +142,14 @@ lib/
 ## 🔐 Security & Privacy
 
 ### Privacy-First Approach
+
 - **No Data Collection:** The app doesn't collect any personal information
 - **Local Processing:** All functionality operates on-device
 - **Transparent Policy:** Clear privacy policy explaining data practices
 - **Third-Party Disclosure:** Honest about OK.ru integration
 
 ### Google Play Compliance
+
 - ✅ No sensitive permissions requested
 - ✅ QUERY_ALL_PACKAGES permission removed
 - ✅ Privacy policy compliant
@@ -142,21 +158,25 @@ lib/
 ## 🛠️ Development
 
 ### Running Tests
+
 ```bash
 flutter test
 ```
 
 ### Code Analysis
+
 ```bash
 flutter analyze
 ```
 
 ### Formatting
+
 ```bash
 dart format .
 ```
 
 ### Dependencies Update
+
 ```bash
 flutter pub upgrade
 ```
@@ -164,6 +184,7 @@ flutter pub upgrade
 ## 📦 Dependencies
 
 ### Core Dependencies
+
 - `flutter`: SDK framework
 - `webview_flutter`: Web content integration
 - `just_audio`: Audio streaming
@@ -172,6 +193,7 @@ flutter pub upgrade
 - `google_fonts`: Typography
 
 ### UI/UX Dependencies
+
 - `cached_network_image`: Image optimization
 - `flutter_html`: HTML content rendering
 - `url_launcher`: External link handling
@@ -180,12 +202,14 @@ flutter pub upgrade
 ## 🚀 Deployment
 
 ### Google Play Store
+
 1. **Signed AAB:** Release bundle ready for upload
 2. **Privacy Policy:** Comprehensive and compliant
 3. **Store Listing:** Professional presentation
 4. **Version:** 3.0.1 production ready
 
 ### Release Notes - v3.0.1
+
 - Complete TV streaming functionality
 - Professional UI/UX design
 - Privacy-compliant architecture
@@ -204,6 +228,7 @@ We welcome contributions! Please follow these steps:
 5. Open a Pull Request
 
 ### Development Guidelines
+
 - Follow Flutter/Dart style guide
 - Write meaningful commit messages
 - Add tests for new features
@@ -216,6 +241,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact & Support
 
 **Weru Digital**
+
 - **Repository:** https://github.com/rayklanderman/weru_digital
 - **Issues:** https://github.com/rayklanderman/weru_digital/issues
 - **Email:** [Contact Information]
@@ -231,4 +257,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ by the Weru Digital team**
 
-*Empowering, Educating, and Entertaining Our Audience through Quality Mobile Media*
+_Empowering, Educating, and Entertaining Our Audience through Quality Mobile Media_

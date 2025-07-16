@@ -73,7 +73,6 @@ class _TvPageState extends State<TvPage> {
           overflow: hidden;
           border-radius: 8px;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-          margin-top: 10px;
         }
 
         .okru-wrapper iframe {
@@ -84,6 +83,7 @@ class _TvPageState extends State<TvPage> {
           height: 100%;
           z-index: 1;
           border: none;
+          object-fit: contain;
         }
 
         .overlay {
